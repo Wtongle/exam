@@ -20,18 +20,16 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" href="#">某管理系统</a>
+					
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
-					<!-- <ul class="nav navbar-nav navbar-right">
-									           
-									          </ul> -->
-					<!-- <div id="navbar" class="navbar-collapse collapse"> -->
 					<ul class="nav navbar-nav ">
 						<li class="active"><a href="#">首页</a></li>
 
 
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">功能
+							<!-- aria-haspopup :true表示点击的时候会出现菜单或是浮动元素； -->
 								<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li class="dropdown-header">业务功能</li>
@@ -45,9 +43,8 @@
 						</li>
 						<li><a href="#">帮助</a></li>
 					</ul>
-
-					<!-- <div id="navbar" class="navbar-collapse collapse"> -->
 					<form class="navbar-form navbar-right">
+						<!-- Navbar-form：主要调整所有form都为行内元素 -->
 						<div class="form-group">
 							<input type="text" placeholder="用户名..." class="form-control">
 						</div>
@@ -56,9 +53,7 @@
 						</div>
 						<button type="submit" class="btn btn-default">登录</button>
 					</form>
-					<!-- </div> -->
 				</div>
-				
 			</div>
 		</nav>
 
@@ -69,13 +64,13 @@
 						<li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
 					</ul>
 					<ul class="nav nav-sidebar">
-						<li><a href="">信息建立</a></li>
-						<li><a href="">信息查询</a></li>
-						<li><a href="">信息管理</a></li>
+						<li><a href="#">信息建立</a></li>
+						<li><a href="#">信息查询</a></li>
+						<li><a href="#">信息管理</a></li>
 					</ul>
 					<ul class="nav nav-sidebar">
-						<li><a href="">设置</a></li>
-						<li><a href="">帮助</a></li>
+						<li><a href="#">设置</a></li>
+						<li><a href="#">帮助</a></li>
 					</ul>
 				</div>
 
@@ -109,13 +104,13 @@
 								<div class="panel-body">
 
 									<h6 class="alert alert-info" type="" style="margin-top: 1px;">
-										订单审批 <span class="badge pull-right">42</span>
+										<a href="">批单审批</a> <span class="badge pull-right">42</span>
 									</h6>
 									<h6 class="alert alert-info" type="">
-										收藏确认 <span class="badge pull-right">20</span>
+									<a href="">	收藏确认</a> <span class="badge pull-right">20</span>
 									</h6>
 									<h6 class="alert alert-info" type="">
-										付款确认 <span class="badge pull-right">10</span>
+										<a href="">付款确认 </a><span class="badge pull-right">10</span>
 									</h6>
 								</div>
 							</div>
@@ -127,13 +122,9 @@
 							<div class="panel panel-primary">
 
 								<div class="panel-heading">最新订单</div>
-								<!-- <div class="panel panel-default"> -->
-								<!-- Default panel contents -->
 								<div class="panel-body">
 
-									<!-- Table -->
 									<table class="table table-striped">
-										<!-- 隔行换色 -->
 										<thead>
 											<tr>
 												<th>#</th>
@@ -144,7 +135,7 @@
 											</tr>
 										</thead>
 										<tbody>
-											<tr style="background-color: #f5f5f5;">
+											<tr>
 												<td>1</td>
 												<td>Apple Macbook air</td>
 												<td>10</td>
@@ -158,7 +149,7 @@
 												<td>65000</td>
 												<td>尹开花</td>
 											</tr>
-											<tr style="background-color: #f5f5f5;">
+											<tr>
 
 												<td>3</td>
 												<td>Apple Macbook pro</td>
@@ -180,7 +171,6 @@
 								<div class="panel-heading">工程进度</div>
 								<!-- panel-heading 在面板添加一个标题容器 -->
 								<div class="panel-body">
-									<!-- 没有包含 .panel-body 的 <div>，则组件会无中断地从面板头部移动到表格。 -->
 									<h4><span class="label label-primary">水井挖掘工程</span></h4>
 
 									<div class="progress">
@@ -193,7 +183,7 @@
 									<div class="progress">
 										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0"
 										 aria-valuemax="100" style="width: 80%;">
-											<span class="sr-only">80% Complete (danger)</span>
+											<span class="sr-only">80% Complete</span>
 										</div>
 									</div>
 								</div>
